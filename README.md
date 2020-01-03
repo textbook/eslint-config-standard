@@ -69,6 +69,7 @@ This config starts from [`eslint:recommended`][1] then adds the following rules:
 | [operator-linebreak] | `"before"` | |
 | [quotes] | `"double"` | More likely to need `'` inside a string than `"` |
 | [semi] | | Students shouldn't have to memorise the [ASI rules] |
+| [space-before-function-paren] | `"always"` | 2 - Consistency across anonymous and arrow functions |
 
   [1]: https://eslint.org/docs/user-guide/configuring#using-eslintrecommended
   [2]: https://www.reddit.com/r/javascript/comments/c8drjo/nobody_talks_about_the_real_reason_to_use_tabs/
@@ -89,3 +90,4 @@ This config starts from [`eslint:recommended`][1] then adds the following rules:
   [quotes]: https://eslint.org/docs/rules/quotes
   [semi]: https://eslint.org/docs/rules/semi
   [SemVer]: https://semver.org/
+  [space-before-function-paren]: https://eslint.org/docs/rules/space-before-function-paren

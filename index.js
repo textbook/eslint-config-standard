@@ -16,5 +16,6 @@ module.exports = {
 		"operator-linebreak": ["error", "before"],
 		"quotes": ["error", "double"],
 		"semi": "error",
+		"space-before-function-paren": ["error", "always"],
 	},
 };
